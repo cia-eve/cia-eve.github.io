@@ -31,21 +31,6 @@ body {
     padding: 20px;
 }
 
-#myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-   cursor: pointer;
-}
-
-#myBtn:hover {
-    background: #ddd;
-    color: black;
-}
-
 </style>
 </head>
 <body>
@@ -58,23 +43,7 @@ body {
 <div class="content">
   <h1>CIA-EVE</h1>
   <p>Welcome to CIA-EVE.  We are currently AFK ratting\mining or farming dank gear in FFXIV.  Please join us on <a href="ts.cia-eve.com">Teamspeak</a> or <a href="https://discord.gg/RtZgUS2">Discord</a></p>
-  <button id="myBtn" onclick="myFunction()">Pause</button>
 </div>
-
-<script>
-var video = document.getElementById("myVideo");
-var btn = document.getElementById("myBtn");
-
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
-}
-</script>
 
 </body>
 </html>
